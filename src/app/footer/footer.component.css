@@ -1,0 +1,17 @@
+/* footer.component.css */
+
+footer {
+    background-color: #333; /* Set background color */
+    color: #fff; /* Set text color */
+    padding: 20px 0; /* Add padding */
+    text-align: center; /* Center align text */
+    position: fixed; /* Fix the footer at the bottom of the page */
+    width: 100%; /* Make the footer full width */
+    bottom: 0; /* Position the footer at the bottom of the page */
+  }
+  
+  .container {
+    max-width: 1200px; /* Set maximum width for content */
+    margin: 0 auto; /* Center align content horizontally */
+  }
+  

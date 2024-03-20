@@ -1,0 +1,30 @@
+/* Default styles for larger screens */
+nav {
+    display: flex;
+    
+    background-color: #333;
+    padding: 10px;
+
+    background-color: rgb(0, 0, 0);
+    border-bottom: 6px solid green;
+    padding:20px 10px;
+    height: auto;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Adjust styles for smaller screens */
+  @media only screen and (max-width: 600px) {
+    nav {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    nav a {
+      margin-bottom: 10px;
+    }
+  }
+  
