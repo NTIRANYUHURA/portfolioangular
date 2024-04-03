@@ -1,6 +1,9 @@
 
 div{
   background-color: #b1e1e2;
+  align-items: center;
+  justify-content: center;
+  
 }
 
 .projects {

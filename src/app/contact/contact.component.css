@@ -9,7 +9,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 80vh;
   overflow: hidden;
   background: linear-gradient(to bottom, #2BC0E4, #EAECC6);
   font-family: 'Poppins', Arial, sans-serif;
@@ -21,10 +21,7 @@ body::before {
   content: '';
   display: block;
   position: absolute;
-  top: -36.5%;
-  right: -22.54%;
-  width: 49.22vw;
-  height: 74.40vh;
+
   border-radius: 100%;
   background-color: rgba(111, 198, 185, 0.84);
   filter: blur(75px);
@@ -34,10 +31,7 @@ body::after {
   content: '';
   display: block;
   position: absolute;
-  top: -25%;
-  left: -10.3%;
-  width: 45.3125vw;
-  height: 67.55vh;
+
   border-radius: 100%;
   background-color: rgba(10, 164, 193, 0.87);
   filter: blur(75px);
@@ -119,13 +113,7 @@ body::after {
   text-decoration: none;
 }
 
-.link-resume::before {
-  content: '\f0c1';
-  position: absolute;
-  top: 0; left: 0;
-  font-family: 'Font Awesome 6 Free';
-  font-weight: 900;
-}
+
 
 .social {
   position: relative;
@@ -150,10 +138,7 @@ body::after {
   background-color: var(--color-white);
   color: var(--color-primary);
   text-decoration: none;
-  
 }
-
-
 
 .social .link:hover {
   background-color: var(--color-primary);
@@ -165,7 +150,6 @@ body::after {
   font-family: 'Font Awesome 6 Brands';
   font-weight: 400;
 }
-
 
 
 .bubbles {
